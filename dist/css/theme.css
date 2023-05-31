@@ -1,0 +1,202 @@
+table tr {
+  cursor: pointer;
+}
+
+.imageUpload {
+  display: block !important;
+}
+
+tbody.view th, tbody.view td {
+  padding: 9px 0 9px 0;
+}
+
+tbody.update th, tbody.update td {
+  padding: 2px;
+}
+.user-avatar{
+  padding-top: 3px;
+}
+.avatar-view, div.view .card-header{
+  background-color: #12431d !important;
+}
+.avatar-edit, div.edit .card-header{
+  background-color: #126b79 !important;
+  color: white;
+}
+
+.user-avatar img{
+  height: 350px;
+  object-fit: contain;
+  padding: 40px;
+}
+
+.edit .user-avatar img{
+  height: 386px;
+}
+
+div.view {
+  background-color: #28a745;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+div.edit {
+  background-color: #17a2b8;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div.cntainer{
+  justify-content: center;
+  padding-top: 15px;
+}
+.cntainer .card{
+  box-shadow: 7px 7px 0px rgba(0,0,0,.125);
+}
+
+td.actions {
+  padding-top:5px;
+  width: 10px;
+}
+
+td.save{
+  text-align: center;
+}
+td.save>a{
+  width: 100%;
+}
+
+.update th {
+  vertical-align: middle;
+}
+
+.save_form button{
+  width: 100%;
+}
+
+#data-table thead img{
+  width:30px;
+  position: relative;
+  z-index: -1;
+}
+
+#data-table thead th:hover{
+  background-color: #1d3750;
+}
+#data-table thead{
+  background-color: #234768;
+  color:white;
+}
+
+#data-table thead th{
+  position: relative;
+  z-index: 1;
+  min-width: 10rem;
+}
+
+#data-table thead h1{
+  display: inline-block;
+  position: relative;
+  z-index: -1;
+  font-size: 1em;
+}
+
+#advanced_search_form .card-header,
+#add_form .card-header
+{
+  display: flex;
+  justify-content: center;
+  background-color: #1d3750;
+  z-index: 1;
+  cursor:pointer;
+}
+
+#advanced_search_form .card-header h3,
+#add_form .card-header h3
+{
+  z-index:-1;
+}
+
+#advanced_search_form label,
+#add_form label
+{
+  margin-bottom: 0;
+  width: 15%;
+  text-align: right;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+
+#advanced_search_form input, 
+#add_form input{
+  width:80%;
+}
+
+#advanced_search_form .form-group, 
+#add_form .form-group{
+  display: flex;
+  align-items: center;
+}
+
+#advanced_search_form button.btn-success,
+#add_form button.btn-info
+{
+  width:80%;
+  background-color: #234768;
+}
+#advanced_search_form button.btn-success:hover,
+#add_form button.btn-info:hover
+{
+  background-color: #19334b;
+}
+
+#advanced_search_form,
+#add_form
+{
+  overflow: hidden;
+  transition: all .3s;
+  height:45px;
+  padding-left: 0;
+  padding-right: 0;
+  width:40%;
+  position:relative;
+  top:0px;
+}
+
+#advanced_search_form .card-primary, 
+#advanced_search_form .card-header
+{
+  border-radius: 30px 30px 0 0;
+}
+#advanced_search_form .card-header
+{
+  background: rgb(21 43 63);
+}
+
+#add_form .card-primary, 
+#add_form .card-header
+{
+  border-radius: 30px 30px 0 0;
+}
+#add_form .card-header{
+  background: rgb(21 43 63);
+}
+.content-header {
+  padding-bottom: 0;
+}
+
+.form-holder{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+#data-table>thead>tr
+{
+  border: 1px solid #f8ff00;
+}
+
+#main-table tr{
+  position: relative;
+}
